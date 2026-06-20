@@ -4,7 +4,7 @@ import pandas as pd
 st.title("HEAL-4WARD: Research Data Dashboard")
 
 # Load your specific file
-df = pd.read_csv('HEAL_4WARD_Undeniable_Research_Data (1)_3.csv')
+df = pd.read_csv('data.csv')
 
 st.write("### Research Data Fingerprints")
 st.dataframe(df)
